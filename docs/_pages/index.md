@@ -16,6 +16,10 @@ sidebar:
 
 Content
 
-```pascal
-{% include examples/foo.psc %}
-```
+<div class="highlighter-rouge">
+  <div class="highlight">
+    <pre class="highlight"><code class="hljs language-papyrus">{% include examples/foo.psc %}</code></pre>
+  </div>
+</div>
+
+More content
