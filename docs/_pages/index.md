@@ -19,3 +19,15 @@ Content
 ```papyrus
 {% include examples/foo.psc %}
 ```
+
+```cs
+class Something {
+  string DoesThisHighlight() {
+    return "testing";
+  }
+}
+```
+
+```psc
+{% include examples/foo.psc %}
+```
