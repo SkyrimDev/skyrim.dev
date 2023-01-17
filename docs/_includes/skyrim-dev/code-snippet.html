@@ -1,0 +1,41 @@
+{% capture snippet_file_sourcecode %}
+  {% include {{include.file}} %}
+{% endcapture %}
+
+{% assign snippet_begin_prefix = "[BEGIN " %}
+{% assign snippet_end_prefix = "[END " %}
+{% assign snippet_begin_search_string = snippet_begin_prefix | append: include.region | append: "]" %}
+{% assign snippet_end_search_string = snippet_end_prefix | append: include.region | append: "]" %}
+{% assign snippet_file_sourcecode_lines = snippet_file_sourcecode | newline_to_br | split: '<br />' %}
+{% assign snippet_file_sourcecode_is_in_snippet_region = false %}
+{% assign output_sourcecode = "" %}
+{% if include.region %}
+  {% else %}
+    {% assign snippet_begin_search_string = "" %}
+{% endif %}
+
+{% for snippet_file_sourcecode_line in snippet_file_sourcecode_lines %}
+  {% if snippet_file_sourcecode_is_in_snippet_region %}
+    {% if snippet_file_sourcecode_line contains snippet_end_search_string %}
+      {% break %}
+    {% endif %}
+  {% else %}
+    {% if snippet_file_sourcecode_line contains snippet_begin_search_string %}
+      {% assign snippet_file_sourcecode_is_in_snippet_region = true %}
+    {% endif %}
+  {% endif %}
+  {% if snippet_file_sourcecode_is_in_snippet_region %}
+    {% if snippet_file_sourcecode_line contains snippet_begin_prefix or snippet_file_sourcecode_line contains snippet_end_prefix %}
+      {% else %}
+        {% assign output_sourcecode = output_sourcecode | append: snippet_file_sourcecode_line %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+Found code:
+
+<div class="highlighter-rouge">
+  <div class="highlight">
+    <pre class="highlight"><code class="hljs language-papyrus">{{ output_sourcecode | strip }}</code></pre>
+  </div>
+</div>

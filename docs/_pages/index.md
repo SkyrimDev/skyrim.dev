@@ -13,13 +13,14 @@ sidebar:
   nav: sidebar
 ---
 
+## Header
 
-Content
+{% include skyrim-dev/code-snippet.html file="examples/foo.psc" region="Header" %}
 
-<div class="highlighter-rouge">
-  <div class="highlight">
-    <pre class="highlight"><code class="hljs language-papyrus">{% include examples/foo.psc %}</code></pre>
-  </div>
-</div>
+## OnInit
 
-More content
+{% include skyrim-dev/code-snippet.html file="examples/foo.psc" region="OnInit" %}
+
+## Whole file
+
+{% include skyrim-dev/code-snippet.html file="examples/foo.psc" %}
