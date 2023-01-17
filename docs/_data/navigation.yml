@@ -10,3 +10,12 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+sidebar:
+- title: '<i class="fad fa-cog"></i> Installation'
+  url: "#installation"
+  children:
+  - title: '<i class="fas fa-cog"></i> Use Install Script'
+    url: "#"
+  - title: '<i class="fas fa-cogs"></i> Manual Installation'
+    url: "#"

@@ -15,3 +15,7 @@ sidebar:
 
 
 Content
+
+```papyrus
+{% include examples/foo.psc %}
+```
