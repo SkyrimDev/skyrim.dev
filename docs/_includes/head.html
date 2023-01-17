@@ -2,6 +2,17 @@
 
 <script src="https://kit.fontawesome.com/8b45683b7f.js" crossorigin="anonymous"></script>
 
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script> -->
+<link rel="stylesheet" href="{{ '/assets/css/github-dark.css' | relative_url }}">
+<!-- https://github.com/wcoder/highlightjs-line-numbers.js -->
+<script src="{{ 'assets/js/highlightjs/highlight.min.js' | relative_url }}"></script>
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script> -->
+<script>
+  hljs.highlightAll();
+  // hljs.initLineNumbersOnLoad();
+</script>
+
 {% include seo.html %}
 
 {% unless site.atom_feed.hide %}
