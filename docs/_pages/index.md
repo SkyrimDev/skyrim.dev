@@ -5,11 +5,11 @@ collection: docs
 entries_layout: grid
 classes: wide
 permalink: /
-author_profile: true
+# author_profile: true
 always_show_sidebar: true
 sidebar:
   nav: sidebar
-excerpt: "Making Skyrim Development **Easy** _for_ **Everyone!**"
+excerpt: "Making Skyrim **Easy** _for_ **Everyone!**"
 # tagline: "This is the tag line"
 header:
   overlay_image: /assets/images/skyrim.dev/BackgroundWide.png
