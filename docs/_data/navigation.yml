@@ -11,22 +11,68 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-sidebar:
+modding:
 
-- title: skyrim.dev
+- title: Skyrim.dev
   url: "#"
   children:
-  - title: Welcome!
+  - title: » Modding
+    url: "/modding"
+  - title: Creation Kit
+    url: "#"
+  - title: Papyrus
+    url: "#"
+  - title: SKSE
+    url: "#"
+
+- title: Modding
+  url: "/modding"
+  children:
+  - title: Modding Skyrim
+    url: "/modding"
+  - title: What you'll need
+    url: "#"
+  - title: Install your first mod!
+    url: "#"
+
+- title: Mod Managers
+  url: "#"
+  children:
+  - title: Mod Organizer 2
+    url: "#"
+  - title: Vortex
+    url: "#"
+
+sidebar:
+
+- title: Modding
+  url: "/modding"
+  children:
+  - title: Start Modding Skyrim!
+    url: "/modding"
+
+- title: Creation Kit
+  url: "#"
+  children:
+  - title: Create Mods in Creation Kit
     url: "#"
 
 - title: Papyrus
   url: "#"
   children:
-  - title: Getting Started
+  - title: Write Game Scripts in Papyrus
     url: "#"
 
-- title: C++
+- title: Skyrim Scripting Extender (SKSE)
   url: "#"
   children:
-  - title: Getting Started
+  - title: Author SKSE Plugins in C++
+    url: "#"
+
+- title: Skyrim.dev
+  url: "#"
+  children:
+  - title: About Us
+    url: "#"
+  - title: Contribute
     url: "#"
