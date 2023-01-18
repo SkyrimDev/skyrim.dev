@@ -13,6 +13,11 @@
   {% else %}
     {% assign snippet_begin_search_string = "" %}
 {% endif %}
+{% if include.language %}
+  {% assign snippet_language = include.language %}
+{% else %}
+  {% assign snippet_language = "papyrus" %}
+{% endif %}
 
 {% for snippet_file_sourcecode_line in snippet_file_sourcecode_lines %}
   {% if snippet_file_sourcecode_is_in_snippet_region %}
@@ -25,7 +30,8 @@
     {% endif %}
   {% endif %}
   {% if snippet_file_sourcecode_is_in_snippet_region %}
-    {% if snippet_file_sourcecode_line contains snippet_begin_prefix or snippet_file_sourcecode_line contains snippet_end_prefix %}
+    {% if snippet_file_sourcecode_line contains snippet_begin_prefix or snippet_file_sourcecode_line contains 
+snippet_end_prefix %}
       {% else %}
         {% assign output_sourcecode = output_sourcecode | append: snippet_file_sourcecode_line %}
     {% endif %}
@@ -36,6 +42,7 @@ Found code:
 
 <div class="highlighter-rouge">
   <div class="highlight">
-    <pre class="highlight"><code class="hljs language-papyrus">{{ output_sourcecode | strip }}</code></pre>
+    <pre
+      class="highlight"><code class="hljs language-{{ snippet_language }}">{{ output_sourcecode | strip }}</code></pre>
   </div>
 </div>

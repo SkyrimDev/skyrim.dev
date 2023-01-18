@@ -12,10 +12,21 @@ main:
   #   url: /sitemap/
 
 sidebar:
-- title: '<i class="fad fa-cog"></i> Installation'
-  url: "#installation"
+
+- title: skyrim.dev
+  url: "#"
   children:
-  - title: '<i class="fas fa-cog"></i> Use Install Script'
+  - title: Welcome!
     url: "#"
-  - title: '<i class="fas fa-cogs"></i> Manual Installation'
+
+- title: Papyrus
+  url: "#"
+  children:
+  - title: Getting Started
+    url: "#"
+
+- title: C++
+  url: "#"
+  children:
+  - title: Getting Started
     url: "#"
