@@ -1,0 +1,20 @@
+cmake-build*
+build/
+out/
+debug/
+release/
+
+.vs
+.idea
+.vscode/settings.json
+
+*.dll
+*.pdb
+*.pex
+*.zip
+*.7z
+*.rar
+
+# You might want a BSA in the repo for a reason.
+# In those scenarios, force add that file
+*.bsa
