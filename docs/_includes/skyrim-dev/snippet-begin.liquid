@@ -1,0 +1,6 @@
+{% if include.language %}
+  {% assign snippet_language = include.language %}
+{% else %}
+  {% assign snippet_language = "papyrus" %}
+{% endif %}
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code class="hljs language-{{ snippet_language  }}">

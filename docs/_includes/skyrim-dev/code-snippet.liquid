@@ -38,11 +38,4 @@ snippet_end_prefix %}
   {% endif %}
 {% endfor %}
 
-Found code:
-
-<div class="highlighter-rouge">
-  <div class="highlight">
-    <pre
-      class="highlight"><code class="hljs language-{{ snippet_language }}">{{ output_sourcecode | strip }}</code></pre>
-  </div>
-</div>
+{% include skyrim-dev/snippet-begin.liquid language=snippet_language %}{{ output_sourcecode | strip }}{% include skyrim-dev/snippet-end.liquid %}

@@ -63,7 +63,11 @@ skse:
   children:
   - title: Your first SKSE plugin in C++
     url: "#"
-  - title: C++ Resources
+  - title: "Configure logging"
+    url: "#"
+  - title: "Setup a debugger"
+    url: "#"
+  - title: C++ Programming Resources
     url: "#"
 - title: CommonLibSSE
   url: /
@@ -82,7 +86,7 @@ skse:
   - title: "Working with Forms (Game Objects)"
     url: "#"
   - title: "Listening for Game Events"
-    url: "#"
+    url: "/skse/events"
   - title: "Saving/Loading SKSE Plugin Data"
     url: "#"
   - title: "Creating native Papyrus functions"
