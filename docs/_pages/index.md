@@ -2,6 +2,7 @@
 permalink: /
 title: Welcome!
 layout: single
+classes: wide
 always_show_sidebar: true
 sidebar:
   nav: home
@@ -14,6 +15,9 @@ header:
     - label: "Start Modding!"
       url: "/modding"
 ---
+
+> <i class="fa-regular fa-circle-info"></i> _If you are viewing this site in January or February 2023, this site is **brand new**.  
+> Content will be added over the next couple weeks! `<3`_
 
 # Skyrim.dev
 
@@ -44,9 +48,5 @@ For now, there might not be much. But please reach out to contibute.
 > _Later, we will setup a more formal contribution model `<3`_
 
 ~ **_Enjoy your stay!_** ~
-
-> Checkout my YouTube Skyrim modding tutorials at:
-> 
-> - [https://youtube.com/SkyrimScripting](https://discord.gg/d96UKrKead)
 
 [Discord]: https://discord.gg/d96UKrKead
