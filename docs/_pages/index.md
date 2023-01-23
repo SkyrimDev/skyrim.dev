@@ -17,7 +17,7 @@ header:
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Start Modding!"
-      url: "#"
+      url: "/modding"
 
 ---
 
