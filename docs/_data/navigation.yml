@@ -90,7 +90,7 @@ skse:
   - title: "Saving/Loading SKSE Plugin Data"
     url: "#"
   - title: "Creating native Papyrus functions"
-    url: "#"
+    url: "/skse/native-papyrus-functions"
 - title: Code Samples (Extra)
   url: "#"
   children:
