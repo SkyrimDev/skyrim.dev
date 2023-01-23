@@ -19,7 +19,7 @@ header:
       url: "#"
 ---
 
-# Events
+# Native Papyrus Functions
 
 {% include skyrim-dev/snippet-begin.liquid language="papyrus" %}scriptName MyPapyrusScript
 
