@@ -28,7 +28,7 @@ sample_project_url: "https://github.com/SkyrimDev/HelloWorld-using-CommonLibSSE-
 
 # Your first SKSE plugin in C++
 
-> <i class="fa-duotone fa-dragon"></i> The adventure begins today.
+> <i class="fa-duotone fa-dragon"></i> Your adventure begins today.
 
 In this tutorial, you will:
 
@@ -37,6 +37,7 @@ In this tutorial, you will:
 - <i class="fa-duotone fa-gears"></i> Configure the SKSE plugin
 - <i class="fa-duotone fa-hammer"></i> Build the SKSE plugin
 - <i class="fa-duotone fa-circle-play"></i> Run the SKSE plugin in Skyrim
+- <i class="fa-duotone fa-face-monocle"></i> Code review
 
 > This tutorial does not require any C++ knowledge.
 
@@ -46,10 +47,16 @@ In this tutorial, you will:
 
 # <i class="fa-duotone fa-screwdriver-wrench"></i> Setup the tools required to create SKSE plugins
 
-# <i class="fa-duotone fa-download"></i> Download [SKSE plugin template][template]
+- <i class="fa-duotone fa-download"></i> Download and install [Visual Studio 2022][]
+- When installing, choose the **`Desktop development with C++`** module
+
+![Desktop development with C++](/assets/images/skyrim.dev/screenshots/Visual Studio/VS Desktop Development with Cpp.png)
+
+# <i class="fa-duotone fa-download"></i> Download SKSE plugin template
 # <i class="fa-duotone fa-gears"></i> Configure the SKSE plugin
 # <i class="fa-duotone fa-hammer"></i> Build the SKSE plugin
 # <i class="fa-duotone fa-circle-play"></i> Run the SKSE plugin in Skyrim
+# <i class="fa-duotone fa-face-monocle"></i> Code review
 
 ---
 
