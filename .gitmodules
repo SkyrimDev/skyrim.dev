@@ -1,0 +1,6 @@
+[submodule "samples/HelloWorld-using-CommonLibSSE-NG"]
+	path = samples/HelloWorld-using-CommonLibSSE-NG
+	url = https://github.com/SkyrimDev/HelloWorld-using-CommonLibSSE-NG.git
+[submodule "images/skyrim.dev"]
+	path = images/skyrim.dev
+	url = https://github.com/SkyrimDev/Images.git
