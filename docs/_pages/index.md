@@ -49,4 +49,8 @@ For now, there might not be much. But please reach out to contibute.
 
 ~ **_Enjoy your stay!_** ~
 
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html collection="samples" sort_by=page.sort_by sort_order=page.sort_order type="grid" %}
+</div>
+
 [Discord]: https://discord.gg/d96UKrKead

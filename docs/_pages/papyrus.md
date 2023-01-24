@@ -11,9 +11,9 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "[_youtube.com/SkyrimScripting_](https://youtube.com/SkyrimScripting)"
   actions:
-    - label: "Getting Started"
+    - label: "Getting Started (tbd)"
       url: "#"
-    - label: "Code Samples"
+    - label: "Code Samples (tbd)"
       url: "#"
 ---
 

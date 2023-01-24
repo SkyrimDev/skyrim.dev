@@ -9,7 +9,7 @@ classes: wide
 always_show_sidebar: true
 sidebar:
   nav: skse
-# excerpt: "Choose your weapon!"
+excerpt: "Implement custom `native` Papyrus functions in C++"
 header:
   overlay_image: /assets/images/skyrim.dev/BackgroundWide.png
   overlay_filter: 0.5 # same as adnative-papyrus-functionsding an opacity of 0.5 to a black background
