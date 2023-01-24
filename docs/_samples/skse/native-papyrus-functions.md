@@ -11,7 +11,7 @@ sidebar:
   nav: skse
 excerpt: "Implement custom `native` Papyrus functions in C++"
 header:
-  overlay_image: /assets/images/skyrim.dev/BackgroundWide.png
+  overlay_image: /assets/images/skyrim.dev/Logos/SkyrimScripting/BackgroundWide.png
   overlay_filter: 0.5 # same as adnative-papyrus-functionsding an opacity of 0.5 to a black background
   caption: "[_youtube.com/SkyrimScripting_](https://youtube.com/SkyrimScripting)"
   actions:

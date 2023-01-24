@@ -62,7 +62,7 @@ skse:
   url: /
   children:
   - title: Your first SKSE plugin in C++
-    url: "#"
+    url: "/skse/first-plugin"
   - title: "Configure logging"
     url: "#"
   - title: "Setup a debugger"
