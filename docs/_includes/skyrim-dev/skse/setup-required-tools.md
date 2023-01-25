@@ -20,7 +20,7 @@ You will need:
 
 - Open the Start menu, type '_environment_', and choose '_Edit environment variables for your account_'
 
-  ![Edit environment varioables for your account](https://raw.githubusercontent.com/SkyrimDev/Images/main/images/screenshots/Setting%20Environment%20Variables/Edit%20Environment%20Variables%20for%20Account.png)
+  ![Edit environment varioables for your account](https://raw.githubusercontent.com/SkyrimDev/Images/main/images/screenshots/Setting%20Environment%20Variables/Edit%20Environment%20Variables%20for%20Account.png){:width='75%'}
 
 - Click `New` to create a new environment variable
 
