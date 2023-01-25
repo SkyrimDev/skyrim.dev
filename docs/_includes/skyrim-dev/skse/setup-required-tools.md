@@ -9,7 +9,7 @@ You will need:
 
 - When installing, choose the **`Desktop development with C++`** module
 
-![Desktop development with C++](/assets/images/skyrim.dev/screenshots/Visual Studio/VS Desktop Development with Cpp.png)
+![Desktop development with C++](https://raw.githubusercontent.com/SkyrimDev/Images/main/images/screenshots/Visual%20Studio/VS%20Desktop%20Development%20with%20Cpp.png)
 
 ## `vcpkg`
 
