@@ -19,8 +19,8 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "[_youtube.com/SkyrimScripting_](https://youtube.com/SkyrimScripting)"
   actions:
-    - label: "Download Sample"
-      url: "https://github.com/SkyrimDev/HelloWorld-using-CommonLibSSE-NG"
+  - label: "Download Sample"
+    url: "https://github.com/SkyrimDev/HelloWorld-using-CommonLibSSE-NG"
 
 sample_project: HelloWorld-using-CommonLibSSE-NG
 sample_project_url: "https://github.com/SkyrimDev/HelloWorld-using-CommonLibSSE-NG"
@@ -41,24 +41,23 @@ In this tutorial, you will:
 
 > This tutorial does not require any C++ knowledge.
 
-{% comment %}
-{% include skyrim-dev/code-snippet.liquid file="samples/HelloWorld-using-CommonLibSSE-NG/PCH.h" language="cpp" %}
-{% endcomment %}
 
 # <i class="fa-duotone fa-screwdriver-wrench"></i> Setup the tools required to create SKSE plugins
 
-- <i class="fa-duotone fa-download"></i> Download and install [Visual Studio 2022][]
-- When installing, choose the **`Desktop development with C++`** module
-
-![Desktop development with C++](/assets/images/skyrim.dev/screenshots/Visual Studio/VS Desktop Development with Cpp.png)
+{% include skyrim-dev/skse/setup-required-tools.md %}
 
 # <i class="fa-duotone fa-download"></i> Download SKSE plugin template
+
+- <i class="fa-duotone fa-copy"></i> Copy GitHub template
+
 # <i class="fa-duotone fa-gears"></i> Configure the SKSE plugin
 # <i class="fa-duotone fa-hammer"></i> Build the SKSE plugin
 # <i class="fa-duotone fa-circle-play"></i> Run the SKSE plugin in Skyrim
 # <i class="fa-duotone fa-face-monocle"></i> Code review
 
 ---
+
+{% include skyrim-dev/code-snippet.liquid file="samples/HelloWorld-using-CommonLibSSE-NG/PCH.h" language="cpp" %}
 
 > <i class="fa-regular fa-circle-info"></i> This plugin uses [CommonLibSSE-NG][].
 
