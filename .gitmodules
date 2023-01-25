@@ -1,6 +1,0 @@
-[submodule "docs/assets/images/skyrim.dev"]
-	path = docs/assets/images/skyrim.dev
-	url = https://github.com/SkyrimDev/Images.git
-[submodule "docs/_includes/samples/HelloWorld-using-CommonLibSSE-NG"]
-	path = docs/_includes/samples/HelloWorld-using-CommonLibSSE-NG
-	url = https://github.com/Skyrimdev/HelloWorld-using-CommonLibSSE-NG.git
