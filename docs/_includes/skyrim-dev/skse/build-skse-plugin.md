@@ -1,5 +1,7 @@
 > <i class="fa-regular fa-circle-info"></i> _The screenshots in this section are generic and might not exactly match what you will see for your SKSE template._
 
+> <i class="fa-duotone fa-circle-exclamation"></i> _If you set any environment variables, be sure to close all text editors and GitHub Desktop. You most close and re-open programs after you set environment variables._
+
 Open the folder of the template you downloaded in a C++ code editor.
 
 One of the easiest ways of doing this is to:

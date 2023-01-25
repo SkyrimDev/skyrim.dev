@@ -22,6 +22,7 @@ header:
   - label: "Download Sample"
     url: "https://github.com/SkyrimDev/HelloWorld-using-CommonLibSSE-NG"
 
+sample_name: "Hello, world!"
 sample_project: HelloWorld-using-CommonLibSSE-NG
 sample_project_url: "https://github.com/SkyrimDev/HelloWorld-using-CommonLibSSE-NG"
 ---
@@ -43,10 +44,7 @@ In this tutorial, you will:
 
 # <i class="fa-regular fa-circle-info"></i> Requirements
 
-- Skyrim Special Edition or Anniversary Edition or VR
-  - Must be from Steam or GOG
-
-_At this time, only the Steam and GOG versions of Skyrim are supported by SKSE._
+{% include skyrim-dev/skse/skse-plugin-requirements.md %}
 
 # <i class="fa-duotone fa-screwdriver-wrench"></i> Setup the tools required to create SKSE plugins
 
@@ -67,13 +65,29 @@ _At this time, only the Steam and GOG versions of Skyrim are supported by SKSE._
 {% include skyrim-dev/skse/build-skse-plugin.md %}
 
 # <i class="fa-duotone fa-circle-play"></i> Run the SKSE plugin in Skyrim
+
+{% include skyrim-dev/skse/run-skse-plugin.md %}
+
+## See the SKSE plugin in action
+
+The {{ page.sample_name }} template prints a message to the Skyrim `~` game console.
+
+This can be viewed by launching the game and, at the Main Menu, press the `~` or
+<code>`</code> key to open the console.
+
+You should see the message: "Hello, world!"
+
+[![Skyrim Main Menu Console Hello world](https://raw.githubusercontent.com/SkyrimDev/Images/main/images/screenshots/Skyrim/Main%20Menu%20-%20Console%20-%20Hello%20world.png)](https://raw.githubusercontent.com/SkyrimDev/Images/main/images/screenshots/Skyrim/Main%20Menu%20-%20Console%20-%20Hello%20world.png)
+
 # <i class="fa-duotone fa-face-monocle"></i> Code review
 
----
+## `Plugin.cpp`
 
-{% include skyrim-dev/code-snippet.liquid file="samples/HelloWorld-using-CommonLibSSE-NG/PCH.h" language="cpp" %}
+{% include skyrim-dev/code-snippet.liquid file="samples/HelloWorld-using-CommonLibSSE-NG/plugin.cpp" language="cpp" %}
 
-> <i class="fa-regular fa-circle-info"></i> This plugin uses [CommonLibSSE-NG][].
+## `CMakeLists.txt`
+
+{% include skyrim-dev/code-snippet.liquid file="samples/HelloWorld-using-CommonLibSSE-NG/CMakeLists.txt" language="cmake" region="set_project_name" %}
 
 {% include skyrim-dev/common-markdown-links.md %}
 [template]: {{ page.sample_project_url }}
