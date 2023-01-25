@@ -38,8 +38,6 @@ If everything compiles successfully, you should see "Build All succeeded"
 
 ![Visual Studio - Build All succeeded](https://raw.githubusercontent.com/SkyrimDev/Images/main/images/screenshots/Visual%20Studio/Build%20All%20succeeded.png)
 
-## Visual Studio Code
-
-## JetBrains CLion
-
 ## Other
+
+For other editors, reference their documentation for building CMake projects.
