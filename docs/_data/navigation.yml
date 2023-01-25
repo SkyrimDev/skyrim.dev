@@ -82,7 +82,7 @@ skse:
   url: "#"
   children:
   - title: "System Events (New Game, Save Game...)"
-    url: "#"
+    url: "/skse/system-messages"
   - title: "Working with Forms (Game Objects)"
     url: "#"
   - title: "Listening for Game Events"
