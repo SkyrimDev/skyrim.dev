@@ -14,7 +14,7 @@ header:
     - label: "Creation Kit"
       url: "/modding"
     - label: "Papyrus"
-      url: "/papuris"
+      url: "/papyrus"
     - label: "SKSE"
       url: "/skse"
 ---

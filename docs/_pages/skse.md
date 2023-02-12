@@ -12,9 +12,9 @@ header:
   overlay_image: https://raw.githubusercontent.com/SkyrimDev/Images/main/images/logos/SkyrimScripting/BackgroundWide.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "[_youtube.com/SkyrimScripting_](https://youtube.com/SkyrimScripting)"
-  actions:
-    - label: "Code Samples"
-      url: "/skse/samples"
+  # actions:
+  #   - label: "Code Samples"
+  #     url: "/skse/samples"
 ---
 
-...
+# SKSE Articles

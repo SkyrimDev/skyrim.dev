@@ -1,5 +1,5 @@
 ---
-tagline: "Some custom tagline"
+tagline: "Bind Papyrus functions to C++ functions"
 ---
 
 # Native Papyrus Functions

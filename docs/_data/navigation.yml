@@ -1,132 +1,146 @@
 # top links
 main:
-- title: "Creation Kit"
-  url: /modding
-- title: "Papyrus"
-  url: /papyrus
-- title: "SKSE"
-  url: /skse
+  - title: "Creation Kit"
+    url: /modding
+  - title: "Papyrus"
+    url: /papyrus
+  - title: "SKSE"
+    url: /skse
 
 home:
-- title: Modding
-  url: "/modding"
-  children:
-  - title: Start Modding Skyrim!
-    url: "/modding"
-- title: Creation Kit
-  url: /modding
-  children:
-  - title: Create Mods in Creation Kit
+  # - title: Modding
+  #   url: "/modding"
+  #   children:
+  #     - title: Start Modding Skyrim!
+  #       url: "/modding"
+  - title: Creation Kit
     url: /modding
-- title: Papyrus
-  url: /papyrus
-  children:
-  - title: Write Game Scripts in Papyrus
+    children:
+      - title: Create Mods in Creation Kit
+        url: /modding
+  - title: Papyrus
     url: /papyrus
-- title: Skyrim Scripting Extender (SKSE)
-  url: /skse
-  children:
-  - title: Author SKSE Plugins in C++
+    children:
+      - title: Write Game Scripts in Papyrus
+        url: /papyrus
+  - title: Skyrim Scripting Extender (SKSE)
     url: /skse
-- title: Skyrim.dev
-  url: /
-  children:
-  - title: About Us
+    children:
+      - title: Author SKSE Plugins in C++
+        url: /skse
+  - title: Skyrim.dev
     url: /
-  - title: Contribute
-    url: /
+    children:
+      - title: About Us
+        url: /
+      - title: Contribute
+        url: /
 
 modding:
-- title: Skyrim.dev
-  url: /modding
-  children:
-  - title: Creation Kit
-    url: /modding
-  - title: Papyrus
-
-    url: /modding
-  - title: SKSE
-    url: /skse
+  - title: Skyrim.dev
+    url: /
+    children:
+      - title: Creation Kit
+        url: /modding
+      - title: Papyrus
+        url: /papyrus
+      - title: SKSE
+        url: /skse
+  - title:
+    url: /
+    children:
+      - title: Contribute
+        url: /
 
 skse:
-- title: Skyrim.dev
-  url: /
-  children:
-  - title: Creation Kit
-    url: /modding
-  - title: Papyrus
-    url: /papyrus
-  - title: » SKSE
-    url: /skse
-- title: Getting Started
-  url: /
-  children:
-  - title: Your first SKSE plugin in C++
-    url: "/skse/first-plugin"
-  - title: "Configure logging"
-    url: "#"
-  - title: "Setup a debugger"
-    url: "#"
-  - title: C++ Programming Resources
-    url: "#"
-- title: CommonLibSSE
-  url: /
-  children:
-  - title: 'What is "CommonLibSSE"?'
-    url: "#"
-  - title: Using CommonLib-NG (AE,SE,VR,GOG)
-    url: "#"
-  - title: Using other CommonLib versions
-    url: "#"
-- title: Code Samples (Basics)
-  url: "#"
-  children:
-  - title: "System Events (New Game, Save Game...)"
-    url: "/skse/system-messages"
-  - title: "Working with Forms (Game Objects)"
-    url: "#"
-  - title: "Listening for Game Events"
-    url: "/skse/events"
-  - title: "Saving/Loading SKSE Plugin Data"
-    url: "#"
-  - title: "Creating native Papyrus functions"
-    url: "/skse/native-papyrus-functions"
-- title: Code Samples (Extra)
-  url: "#"
-  children:
-  - title: "Communicate with other SKSE plugins"
-    url: "#"
-  - title: "Reflecting on Papyrus script types"
-    url: "#"
-  - title: "Invoking Papurus functions"
-    url: "#"
+  - title: Skyrim.dev
+    url: /
+    children:
+      - title: Creation Kit
+        url: /modding
+      - title: Papyrus
+        url: /papyrus
+      - title: » SKSE
+        url: /skse
+  # - title: Getting Started
+  #   url: /
+  #   children:
+  #   - title: Your first SKSE plugin in C++
+  #     url: "/skse/first-plugin"
+  #   - title: "Configure logging"
+  #     url: "#"
+  #   - title: "Setup a debugger"
+  #     url: "#"
+  #   - title: C++ Programming Resources
+  #     url: "#"
+  # - title: CommonLibSSE
+  #   url: /
+  #   children:
+  #   - title: 'What is "CommonLibSSE"?'
+  #     url: "#"
+  #   - title: Using CommonLib-NG (AE,SE,VR,GOG)
+  #     url: "#"
+  #   - title: Using other CommonLib versions
+  #     url: "#"
+  # - title: Code Samples (Basics)
+  #   url: "#"
+  #   children:
+  #   - title: "System Events (New Game, Save Game...)"
+  #     url: "/skse/system-messages"
+  #   - title: "Working with Forms (Game Objects)"
+  #     url: "#"
+  #   - title: "Listening for Game Events"
+  #     url: "/skse/events"
+  #   - title: "Saving/Loading SKSE Plugin Data"
+  #     url: "#"
+  #   - title: "Creating native Papyrus functions"
+  #     url: "/skse/native-papyrus-functions"
+  # - title: Code Samples (Extra)
+  #   url: "#"
+  #   children:
+  #   - title: "Communicate with other SKSE plugins"
+  #     url: "#"
+  #   - title: "Reflecting on Papyrus script types"
+  #     url: "#"
+  #   - title: "Invoking Papurus functions"
+  #     url: "#"
+  - title:
+    url: /
+    children:
+      - title: Contribute
+        url: /
 
 papyrus:
-- title: Skyrim.dev
-  url: /
-  children:
-  - title: Creation Kit
-    url: /modding
-  - title: » Papyrus
-    url: /papyrus
-  - title: SKSE
-    url: /skse
-- title: Getting Started
-  url: /
-  children:
-  - title: Write your first Papyrus script
-    url: "#"
-- title: Papyrus Language
-  url: /
-  children:
-  - title: "..."
-    url: "#"
-- title: Samples
-  url: /
-  children:
-  - title: "Using PapyrusUtil"
-    url: "#"
-  - title: "Using PapyrusExtender"
-    url: "#"
-  - title: "Building MCMs using MCM Helper"
-    url: "#"
+  - title: Skyrim.dev
+    url: /
+    children:
+      - title: Creation Kit
+        url: /modding
+      - title: » Papyrus
+        url: /papyrus
+      - title: SKSE
+        url: /skse
+  # - title: Getting Started
+  #   url: /
+  #   children:
+  #     - title: Write your first Papyrus script
+  #       url: "#"
+  # - title: Papyrus Language
+  #   url: /
+  #   children:
+  #     - title: "..."
+  #       url: "#"
+  # - title: Samples
+  #   url: /
+  #   children:
+  #     - title: "Using PapyrusUtil"
+  #       url: "#"
+  #     - title: "Using PapyrusExtender"
+  #       url: "#"
+  #     - title: "Building MCMs using MCM Helper"
+  #       url: "#"
+  - title:
+    url: /
+    children:
+      - title: Contribute
+        url: /

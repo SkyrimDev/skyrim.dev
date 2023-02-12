@@ -10,11 +10,11 @@ header:
   overlay_image: https://raw.githubusercontent.com/SkyrimDev/Images/main/images/logos/SkyrimScripting/BackgroundWide.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "[_youtube.com/SkyrimScripting_](https://youtube.com/SkyrimScripting)"
-  actions:
-    - label: "Getting Started (tbd)"
-      url: "#"
-    - label: "Code Samples (tbd)"
-      url: "#"
+  # actions:
+  #   - label: "Getting Started (tbd)"
+  #     url: "#"
+  #   - label: "Code Samples (tbd)"
+  #     url: "#"
 ---
 
 **Only content right now is in the [SKSE section](/skse)**

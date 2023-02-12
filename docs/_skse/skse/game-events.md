@@ -1,29 +1,6 @@
 ---
-# Optional:
-#
-# title: Game Events
-# excerpt: "Listen for game events: OnActivate, OnHit, OnMenuOpen, etc"
-#
-# header:
-#   actions:
-#     - label: "Download Sample"
-#       url: "#"
-#
-# classes: wide
-# toc: true
+tagline: "Listen for game events: OnActivate, OnHit, OnMenuOpen, etc"
 ---
-
-Foo bar baz
-
-# Something about Game Events
-
-## foo
-
-### blah
-
-## bar
-
-### hello
 
 {% include skyrim-dev/snippet-begin.liquid language="cpp" %}#include "logger.h"
 
