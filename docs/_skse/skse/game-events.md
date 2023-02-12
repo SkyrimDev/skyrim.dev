@@ -1,27 +1,29 @@
 ---
-permalink: /skse/events
-title: Game Events
-layout: single
-classes: wide
+# Optional:
+#
+# title: Game Events
+# excerpt: "Listen for game events: OnActivate, OnHit, OnMenuOpen, etc"
+#
+# header:
+#   actions:
+#     - label: "Download Sample"
+#       url: "#"
+#
+# classes: wide
 # toc: true
-# toc_sticky: true
-# toc_label: Table of contents
-always_show_sidebar: true
-sidebar:
-  nav: skse
-excerpt: "Listen for game events: OnActivate, OnHit, OnMenuOpen, etc"
-header:
-#   image: https://openclipart.org/image/400px/69763
-#   teaser: https://openclipart.org/image/400px/38719
-  overlay_image: https://raw.githubusercontent.com/SkyrimDev/Images/main/images/logos/SkyrimScripting/BackgroundWide.png
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  caption: "[_youtube.com/SkyrimScripting_](https://youtube.com/SkyrimScripting)"
-  actions:
-    - label: "Download Sample"
-      url: "#"
 ---
 
-# Events
+Foo bar baz
+
+# Something about Game Events
+
+## foo
+
+### blah
+
+## bar
+
+### hello
 
 {% include skyrim-dev/snippet-begin.liquid language="cpp" %}#include "logger.h"
 

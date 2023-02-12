@@ -1,22 +1,5 @@
 ---
-permalink: /skse/native-papyrus-functions
-title: Native Papyrus Functions
-layout: single
-classes: wide
-# toc: true
-# toc_sticky: true
-# toc_label: Table of contents
-always_show_sidebar: true
-sidebar:
-  nav: skse
-excerpt: "Implement custom `native` Papyrus functions in C++"
-header:
-  overlay_image: https://raw.githubusercontent.com/SkyrimDev/Images/main/images/logos/SkyrimScripting/BackgroundWide.png
-  overlay_filter: 0.5 # same as adnative-papyrus-functionsding an opacity of 0.5 to a black background
-  caption: "[_youtube.com/SkyrimScripting_](https://youtube.com/SkyrimScripting)"
-  actions:
-    - label: "Download Sample"
-      url: "#"
+tagline: "Some custom tagline"
 ---
 
 # Native Papyrus Functions

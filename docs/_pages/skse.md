@@ -2,7 +2,7 @@
 permalink: /skse
 title: Skyrim Script Extender (SKSE)
 layout: collection
-collection: samples
+collection: skse
 entries_layout: grid
 always_show_sidebar: true
 sidebar:
