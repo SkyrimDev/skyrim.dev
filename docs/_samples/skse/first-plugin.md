@@ -83,11 +83,25 @@ You should see the message: "Hello, world!"
 
 ## `Plugin.cpp`
 
-{% include skyrim-dev/code-snippet.liquid file="samples/HelloWorld-using-CommonLibSSE-NG/plugin.cpp" language="cpp" %}
+{% include skyrim-dev/snippet-begin.liquid language="cmake" %}SKSEPluginLoad(const SKSE::LoadInterface *skse) {
+    SKSE::Init(skse);
+
+    // This example prints "Hello, world!" to the Skyrim ~ console.
+    // To view it, open the ~ console from the Skyrim Main Menu.
+    SKSE::GetMessagingInterface()->RegisterListener([](SKSE::MessagingInterface::Message *message) {
+        if (message->type == SKSE::MessagingInterface::kDataLoaded)
+            RE::ConsoleLog::GetSingleton()->Print("Hello, world!");
+    });
+
+    return true;
+}
+{% include skyrim-dev/snippet-end.liquid %}
 
 ## `CMakeLists.txt`
 
-{% include skyrim-dev/code-snippet.liquid file="samples/HelloWorld-using-CommonLibSSE-NG/CMakeLists.txt" language="cmake" region="set_project_name" %}
+{% include skyrim-dev/snippet-begin.liquid language="cmake" %}# Set your project name. This will be the name of your SKSE .dll file.
+project(HelloWorld VERSION 0.0.1 LANGUAGES CXX)
+{% include skyrim-dev/snippet-end.liquid %}
 
 {% include skyrim-dev/common-markdown-links.md %}
 [template]: {{ page.sample_project_url }}
